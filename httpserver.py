@@ -96,6 +96,7 @@ if __name__ == "__main__":
 
     httpd = HTTPServer(HOST,PORT,DIR) # 实例化对象
     httpd.serve_forever() # 启动服务
+    print("gir修改内容")
 
 
 
